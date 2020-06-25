@@ -1,0 +1,6 @@
+framework module Pods_POC_FirebaseUI_POC_FirebaseUIUITests {
+  umbrella header "Pods-POC FirebaseUI-POC FirebaseUIUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
