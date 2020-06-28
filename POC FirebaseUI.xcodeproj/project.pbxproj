@@ -10,6 +10,7 @@
 		4C66A1531BC5F977147EA62B /* Pods_POC_FirebaseUI_POC_FirebaseUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 710690F05BB26BBA04723E95 /* Pods_POC_FirebaseUI_POC_FirebaseUIUITests.framework */; };
 		957DAE113DAD0E0C0AE475C3 /* Pods_POC_FirebaseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658A52A068C5D0BC01CA6F2C /* Pods_POC_FirebaseUI.framework */; };
 		A393FAAE95E243FC3A723C28 /* Pods_POC_FirebaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D909DBD94F3CFB441FCCABE /* Pods_POC_FirebaseUITests.framework */; };
+		E80007D024A87AB400F31461 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80007CF24A87AB400F31461 /* LoginViewController.swift */; };
 		E80CC8E124A21B4C007E2F9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80CC8E024A21B4C007E2F9F /* AppDelegate.swift */; };
 		E80CC8E324A21B4C007E2F9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80CC8E224A21B4C007E2F9F /* SceneDelegate.swift */; };
 		E80CC8E524A21B4C007E2F9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80CC8E424A21B4C007E2F9F /* ViewController.swift */; };
@@ -51,6 +52,7 @@
 		9F1921BF4F8F5304BA9D4DD3 /* Pods-POC FirebaseUI-POC FirebaseUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC FirebaseUI-POC FirebaseUIUITests.release.xcconfig"; path = "Target Support Files/Pods-POC FirebaseUI-POC FirebaseUIUITests/Pods-POC FirebaseUI-POC FirebaseUIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A98F2C8B8897037985CDA289 /* Pods-POC FirebaseUI-POC FirebaseUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC FirebaseUI-POC FirebaseUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-POC FirebaseUI-POC FirebaseUIUITests/Pods-POC FirebaseUI-POC FirebaseUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6B670BB6CA3630018611F4D /* Pods-POC FirebaseUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POC FirebaseUI.release.xcconfig"; path = "Target Support Files/Pods-POC FirebaseUI/Pods-POC FirebaseUI.release.xcconfig"; sourceTree = "<group>"; };
+		E80007CF24A87AB400F31461 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E80CC8DD24A21B4B007E2F9F /* POC FirebaseUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POC FirebaseUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E80CC8E024A21B4C007E2F9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E80CC8E224A21B4C007E2F9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				E80CC8E024A21B4C007E2F9F /* AppDelegate.swift */,
 				E80CC8E224A21B4C007E2F9F /* SceneDelegate.swift */,
 				E80CC8E424A21B4C007E2F9F /* ViewController.swift */,
+				E80007CF24A87AB400F31461 /* LoginViewController.swift */,
 				E80CC8E624A21B4C007E2F9F /* Main.storyboard */,
 				E8E9EA1324A4C1E900E6996F /* HomeViewController.swift */,
 				E80CC8E924A21B58007E2F9F /* Assets.xcassets */,
@@ -457,6 +460,7 @@
 				E80CC8E524A21B4C007E2F9F /* ViewController.swift in Sources */,
 				E80CC8E124A21B4C007E2F9F /* AppDelegate.swift in Sources */,
 				E80CC8E324A21B4C007E2F9F /* SceneDelegate.swift in Sources */,
+				E80007D024A87AB400F31461 /* LoginViewController.swift in Sources */,
 				E8E9EA1424A4C1E900E6996F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

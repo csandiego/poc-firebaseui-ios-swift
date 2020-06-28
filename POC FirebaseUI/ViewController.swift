@@ -8,7 +8,6 @@
 
 import UIKit
 import Firebase
-import FirebaseUI
 
 class ViewController: UIViewController {
 
@@ -19,15 +18,7 @@ class ViewController: UIViewController {
             if let _ = self.presentedViewController {
                 self.dismiss(animated: true, completion: nil)
             }
-            if let _ = user {
-                self.performSegue(withIdentifier: "home", sender: nil)
-            } else if let ui = FUIAuth.defaultAuthUI() {
-                ui.providers = [FUIGoogleAuth()]
-                ui.shouldHideCancelButton = true
-                let vc = ui.authViewController()
-                vc.modalPresentationStyle = .fullScreen
-                self.present(vc, animated: true, completion: nil)
-            }
+            self.performSegue(withIdentifier: user == nil ? "login" : "home", sender: self)
         }
     }
 
